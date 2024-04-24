@@ -1,7 +1,7 @@
 # Desagio Logaroo
 ### O App Blog Post 
 
-O app tem como objetivo, visualizar todos os posts, cadastrar, deletar e filtrar 
+O app tem como objetivo, fazer com quem você tem interação com outros posts, você pode também cadastrar, para que outros usuários possa ver sua publicação, deletar e filtar posts que esteja na sua timeline.  
 
 ### 🚀Começando 
 
@@ -32,6 +32,6 @@ E pronto, mas para isso, é necessário ter um aparalho celular em mãos com o e
 
 
 ## 🛠️ Contruído com
-- ReactNative
+- React Native
 - React Navigation
 - Styled Components 
