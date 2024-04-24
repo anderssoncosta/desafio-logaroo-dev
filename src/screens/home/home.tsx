@@ -30,7 +30,7 @@ const Home = () => {
       <DeviderHorizontal />
       <ContentSearch>
         <Input
-          placeholder="Filtar"
+          placeholder="Filtrar"
           value={search}
           onChangeText={(e) => setSearch(e)}
         />
