@@ -42,36 +42,6 @@ export const DeviderHorizontal = styled.View`
   background-color: aqua;
 `;
 
-export const ContentSearch = styled.View`
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-  padding: 10px;
-`;
-export const ButtonSearch = styled.TouchableOpacity`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #fff;
-  border: 1px solid #ff6b00;
-  padding: 5px;
-  border-radius: 4px;
-`;
-
-export const ButtonTextSearch = styled.Text`
-  color: #ff6b00;
-  font-weight: bold;
-  text-transform: uppercase;
-`;
-
-export const Input = styled.TextInput`
-  width: 80%;
-  height: 40px;
-  border-radius: 4px;
-  border: 1px solid #ff6b00;
-  padding: 0 10px;
-`;
-
 export const DeviderVertical = styled.View`
   width: 1px;
   height: 100%;

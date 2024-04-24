@@ -8,7 +8,7 @@ import {
   Label,
 } from "./post-register-style";
 import { useState } from "react";
-import { Alert, View } from "react-native";
+import { View } from "react-native";
 import { usePostList } from "./use-post-list";
 import Header from "../header/header";
 import { useNavigation } from "@react-navigation/native";
@@ -49,11 +49,11 @@ const RegisterPost = () => {
           />
         </View>
         <ContentButton>
-          <Button onPress={navigation.goBack}>
-            <ButtonText>Voltar</ButtonText>
+          <Button type="voltar" onPress={navigation.goBack}>
+            <ButtonText type="voltar">Voltar</ButtonText>
           </Button>
-          <Button onPress={handlePostSubmit}>
-            <ButtonText>Registar</ButtonText>
+          <Button type="registrar" onPress={handlePostSubmit}>
+            <ButtonText type="registrar">Registar</ButtonText>
           </Button>
         </ContentButton>
       </Content>

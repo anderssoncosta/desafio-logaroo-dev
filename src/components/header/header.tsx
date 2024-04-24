@@ -1,4 +1,3 @@
-import { Text, View } from "react-native";
 import { Container, Content, Title } from "./style";
 
 const Header = () => {

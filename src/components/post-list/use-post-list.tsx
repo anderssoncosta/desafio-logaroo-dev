@@ -25,7 +25,6 @@ export const usePostList = (): usePostList => {
         return;
       }
       await createPost(data);
-      console.log(data);
       Alert.alert("Post criado com sucesso!");
     } catch (error) {
       console.error(error);
@@ -34,7 +33,6 @@ export const usePostList = (): usePostList => {
 
   const postDelete = async (postId: number): Promise<void> => {
     try {
-      // await deletePost(postId);
       Alert.alert("Atenção!", "Deseja realmente exluir?", [
         {
           text: "Cancelar",
@@ -43,7 +41,10 @@ export const usePostList = (): usePostList => {
         },
         {
           text: "Confirmar",
-          onPress: () => deletePost(postId),
+          onPress: async () => {
+            await deletePost(postId);
+            Alert.alert("Deletado com sucesso!");
+          },
           style: "destructive",
         },
       ]);
@@ -56,7 +57,6 @@ export const usePostList = (): usePostList => {
   const postList = async (): Promise<void> => {
     try {
       const response = await getPosts();
-      // console.log(response);
       setPosts(response);
     } catch (error) {
       console.error(error);
@@ -68,7 +68,6 @@ export const usePostList = (): usePostList => {
       post.title.toLowerCase().includes(searchTerm.toLowerCase())
     );
     setPosts(filteredPosts);
-    console.log("teste => ", filteredPosts);
   };
 
   useEffect(() => {
