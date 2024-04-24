@@ -1,7 +1,7 @@
 # Desafio Logaroo
-### O App Blog Post 
+### App Blog Post 
 
-O app tem como objetivo, fazer com quem você tem interação com outros posts, você pode também cadastrar, para que outros usuários possa ver sua publicação, deletar e filtar posts que esteja na sua timeline.  
+O app tem como objetivo fazer com quem você tenha interação com outros posts, você pode também cadastrar, para que outros usuários possam ver sua publicação, deletar e filtar posts que esteja na sua timeline.  
 
 ### 🚀Começando 
 
