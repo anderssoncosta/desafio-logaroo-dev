@@ -10,7 +10,7 @@ Essas instruções permitirão que você obtenha uma cópia do projeto em opera�
 ### 🔧 Instalação
 
 ```bash
-git clone [https://github.com/anderssoncosta/desafio-mb]
+git clone https://github.com/anderssoncosta/desafio-mb
 ````
 Para rodar o projeto, faça o seguinte comando:
 ```bash
